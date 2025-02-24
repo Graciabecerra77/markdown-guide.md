@@ -1,0 +1,44 @@
+# Developer Tools
+
+## 1) ¿Qué hacen los siguientes comandos?
+
+### 1. pwd
+- *Función*: Muestra la ruta absoluta del directorio actual  
+- *Uso*: Orientación en la estructura de archivos  
+
+### 2. ls
+- *Función*: Lista archivos y carpetas visibles  
+ 
+### 3. cd [directorio]
+- *Función*: Navegación entre directorios  
+
+### 4. mkdir [nombre]
+- *Función*: Crea nuevos directorios  
+
+### 5. touch [archivo]
+- *Función*: Crea archivos vacíos o actualiza el tiempo en el que subio
+
+
+## 2) ¿Puedes explicar qué sucede en el siguiente escenario si ingresas estos comandos y argumentos en la línea de comandos?
+(Los argumentos son instrucciones adicionales dadas a un comando).
+
+
+1. **`cd projects`**:Entra a la carpeta de `projects`.
+
+2. **`mkdir new-project`**: Creas un nuevo directorio llamado `new-project`.
+
+3. **`touch new-project/newfile.md`**: Creas un archivo vacío llamado `newfile.md` dentro de `new-project`.
+
+4. **`cd ..`**: Retrocedes al directorio.
+
+5. **`ls projects/new-project`**: Listas el contenido de `new-project`, mostrando el archivo `newfile.md`.
+
+
+## 3)¿Qué comando usarías en la terminal para listar todos los archivos, incluidos los archivos ocultos, en un directorio de Linux o macOS? Explica qué significan los parámetros utilizados en el comando.
+
+ls -a
+
+ls: Este comando se utiliza para listar los archivos y directorios en el directorio actual.
+
+-a: Este parámetro significa "all" (todo). Indica al comando ls que muestre todos los archivos.
+
